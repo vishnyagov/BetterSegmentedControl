@@ -31,7 +31,7 @@ open class IconSegment: BetterSegmentedControlSegment {
                 normalIconTintColor: UIColor,
                 selectedBackgroundColor: UIColor? = nil,
                 selectedIconTintColor: UIColor) {
-        self.icon = icon.withRenderingMode(.alwaysTemplate)
+        self.icon = icon
         self.iconSize = iconSize
         self.normalBackgroundColor = normalBackgroundColor ?? DefaultValues.normalBackgroundColor
         self.normalIconTintColor = normalIconTintColor
